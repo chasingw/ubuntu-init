@@ -1,5 +1,11 @@
 #!/bin/bash
 
+sudo apt-get update
+sudo apt-get upgrade
+
+# apollo
+# 4.4 kernal
+sudo apt-get -y install linux-generic-lts-xenial
 # install zsh
 
 echo "------------ begin install zsh ------------"
