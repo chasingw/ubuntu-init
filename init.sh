@@ -49,15 +49,15 @@ sudo pip install shadowsocks
 # pcl
 # https://askubuntu.com/questions/916260/how-to-install-point-cloud-library-v1-8-pcl-1-8-0-on-ubuntu-16-04-2-lts-for
 # oracle-java8-jdk
-sudo add-apt-repository -y ppa:webupd8team/java && sudo apt update && sudo apt -y install oracle-java8-installer
+# sudo add-apt-repository -y ppa:webupd8team/java && sudo apt update && sudo apt -y install oracle-java8-installer
 
 # pre-requisites
-sudo apt -y install g++ cmake cmake-gui doxygen mpi-default-dev openmpi-bin openmpi-common libusb-1.0-0-dev libqhull* libusb-dev libgtest-dev
-sudo apt -y install git-core freeglut3-dev pkg-config build-essential libxmu-dev libxi-dev libphonon-dev libphonon-dev phonon-backend-gstreamer
-sudo apt -y install phonon-backend-vlc graphviz mono-complete qt-sdk libflann-dev
+#sudo apt -y install g++ cmake cmake-gui doxygen mpi-default-dev openmpi-bin openmpi-common libusb-1.0-0-dev libqhull* libusb-dev libgtest-dev
+#sudo apt -y install git-core freeglut3-dev pkg-config build-essential libxmu-dev libxi-dev libphonon-dev libphonon-dev phonon-backend-gstreamer
+#sudo apt -y install phonon-backend-vlc graphviz mono-complete qt-sdk libflann-dev
 
 # 1.8.0 ubuntu 16.04
-sudo apt -y install libflann1.8 libboost1.58-all-dev
+#sudo apt -y install libflann1.8 libboost1.58-all-dev
 
 cd ~/Downloads
 wget http://launchpadlibrarian.net/209530212/libeigen3-dev_3.2.5-4_all.deb
