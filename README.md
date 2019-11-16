@@ -29,3 +29,6 @@ sudo apt-get install ros-kinetic-desktop-full
 
 # 1080ti ubuntu16.04 cuda10 410
 # https://typora.io/
+
+# vi
+git clone https://github.com/poodarchu/vimrc.git sh setup.sh
